@@ -39,7 +39,7 @@ btn02.addEventListener("click", () => {
 
         col01.textContent = i
         col02.textContent = v1[i]
-        }
+    }
 })
 
 let btn03 = document.querySelector("#btnEjemplo03")
