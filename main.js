@@ -24,18 +24,18 @@ btn02.addEventListener("click", () => {
     let num = Number(document.querySelector("#numero02").value)
     let v1 = [num]
 
-        for (let i =0; i < num; i++) {
-            let num = Number(prompt("Ingresa un número:"))
+    for (let i =0; i < num; i++) {
+        let num = Number(prompt("Ingresa un número:"))
 
-            v1[i] = num
-        }
+        v1[i] = num
+    }
 
-        let tabla = document.querySelector("#tabla02")
-        tabla.textContent = ""
-        for (let i = 0; i < num; i++){ 
-            let ren = tabla.insertRow(-1)
-            let col01 = ren.insertCell(0)
-            let col02 = ren.insertCell(1)
+    let tabla = document.querySelector("#tabla02")
+    tabla.textContent = ""
+    for (let i = 0; i < num; i++){ 
+        let ren = tabla.insertRow(-1)
+        let col01 = ren.insertCell(0)
+        let col02 = ren.insertCell(1)
 
         col01.textContent = i
         col02.textContent = v1[i]
